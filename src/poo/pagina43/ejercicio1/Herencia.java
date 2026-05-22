@@ -25,7 +25,7 @@ class Persona {
         System.out.println(nombre + " " + apellidos + " está viajando con la delegación.");
     }
 
-    // Getters y Setters
+
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
     public String getNombre() { return nombre; }
