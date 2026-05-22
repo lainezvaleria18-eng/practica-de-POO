@@ -81,7 +81,7 @@ class Nivel2 {
             System.out.println("\nPregunta " + (i + 1) + ": " + preguntas[i]);
             resp = entrada.nextLine().trim().toLowerCase();
 
-                if (resp.equalsIgnoreCase(respuestasCorrectas[i])){
+            if (resp.equalsIgnoreCase(respuestasCorrectas[i])){
                 System.out.println("¡Correcto! +20 puntos.");
                 puntajeNivel2 += 20;
             } else {
